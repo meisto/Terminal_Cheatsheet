@@ -2,6 +2,7 @@
 stdin, 1 stdout, 2 stderr
 | Command               | Function      |
 | ---                   | ---           |
+| pipe1 \| pipe2         | 
 | pipe > filename       | Write stdout of pipe to file 'filename'. |
 | pipe >> filename      | Append stdout of pipe to file 'filename' |
 | pipe 2> filename      | Write only stderr to file. |
